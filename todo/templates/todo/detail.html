@@ -24,6 +24,8 @@
 
     <div>
       <a href="{% url 'index' %}">ホームへ戻る</a>
+    　<a href="{%url 'update' task.id %}">編集する</a>
+      <a href="{% url 'close' task.id %}">タスクを閉じる</a>
       <a href="{% url 'delete' task.id %}">タスクを削除</a>
     </div>
   </body>
